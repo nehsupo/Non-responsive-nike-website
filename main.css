@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.background{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d0e5d71f755e5ec594f159ad/bg.jpg);
+}
+.wrapper{
+    max-width: 1620px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #0c032e;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+nav p {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+i{
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    font-size: 3rem;
+}
+.menu{
+    position: absolute;
+    top: 17px;
+    right: 300px;
+    font-size: 1rem;
+    line-height: 40px;
+    width: 130px;
+    border: 2px solid black;
+}
+.menu:hover {
+    color: white;
+    background-color: #000;
+    border: 2px solid white;
+    cursor:grab;
+}
+aside{
+    position: fixed;
+    top: 0;
+    left: -640px;
+    height: 100vh;
+    width: 20vw;
+    background-color: #000;
+    margin-right: 50%;
+}
+.show {
+    left: 0;
+}
+
+aside p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+aside p:nth-child(2){
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+#close {
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+    border: 2px solid white;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: 2s;
+}
+#close:hover{
+    transform: rotate(250deg);
+    cursor: grab;
+}
+#asideMenu p:hover{
+    color: royalblue;
+    cursor:grab;
+}
+
+.header{
+
+    color: #fff;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+    width: 45%;
+}
+
+p.title {
+    font-size: 4rem;
+    padding-top: 15vh;
+    width: 45%;
+    height: 100px;
+}
+
+.titleImg{
+    width: 45%;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 200px;
+}
+.collection{
+    width: 50%;
+    margin-top: -25%;
+}
+button.learnMore{
+    margin-left: 50%;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    font-size: 2rem;
+}
+button.learnMore p {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    line-height: 70px;
+    font-size: 1.5rem;
+}
+button.learnMore:hover{
+    background-color: #000;
+    border: 2px solid white;
+    cursor:grab
+}
+
+button.learnMore:hover > p{
+    color: #fff;
+}
+
+.backgroundP2{
+    background-image: url("//images03.nicepage.io/c461c07a441a5d220e8feb1a/6ddcef9c91385bc0b39637c0/NikeCNY2019_DB_CNY_BS_FIN_hd_1600.jpg");
+    height: 50vh;
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20vh;
+    padding-left: 200px;
+    overflow: hidden;
+}
+
+.feature1 {
+    background-image: url("https://images03.nicepage.io/c461c07a441a5d220e8feb1a/3baee5a1a63451b0ac593385/Untitled3.jpg");
+    width: 25vw;
+    height: 25vw;
+    margin-left: -2000px;
+    }
+.feature2 {
+    background-image: url("https://images03.nicepage.io/c461c07a441a5d220e8feb1a/c27c22266b455ad8955b807d/14575936669224.jpg");
+    width: 25vw;
+    height: 25vw;
+}
+.feature3 {
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/3baee5a1a63451b0ac593385/Untitled3.jpg");
+    width: 25vw;
+    height: 25vw;
+}
+
+.examples { 
+    position: relative;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+
+    overflow: hidden;
+}
+.examples p {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 10vh;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.examples ol li{
+    width: 100%;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.exampleList{
+    margin-left: 2000px;
+}
+
+.website {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.website p {
+    width: 51%;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 100px;
+    padding-top:5vh ;
+    float: left;
+}
+.website p:nth-child(2){
+    padding-top:0 ;
+}
+.webAdv {
+    background-image: url("https://images03.nicepage.io/c461c07a441a5d220e8feb1a/c27c22266b455ad8955b807d/14575936669224.jpg");
+    width: 20vw;
+    height: 20vw;
+    background-position: left ;
+    position: absolute;
+    bottom: 20%;
+    right: 26vw;
+}
+.webAdv::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.web {
+    position: absolute;
+    bottom: 15%;
+    right:35vw;
+    width: 10vh;
+    height: 5vh;
+}
+.web::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.web:hover{
+    color: white;
+    background-color: #000;
+    cursor: grab;
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top:0px;
+    width: 100%;
+    height: 20%; 
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
+
+ul>li{
+    padding: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+/* footer{
+    color: white;
+    width: 100%;
+    height: 2vh;
+    background-color: #000;
+    text-align: center;   
+} */
+
